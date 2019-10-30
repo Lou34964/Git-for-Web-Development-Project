@@ -1,1 +1,206 @@
 https://codepen.io/Lou34964/pen/bGGoePg?editors=1100
+
+    1. What is Semantic HTML?
+
+    useing tags that give meaning to your code.
+
+    2. What is HTML used for?
+
+    build a webpage and user interface.
+
+    3. What is an attribute and where do we put it?
+
+    attributes are properies given to tags they go in the opening bracket of the tag
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+
+    to display importance. h1 should only be used 1 time with few exceptions
+
+    5. Name two tags that have required attributes
+
+    <a> - ancoring tag must have a href (only one href url/path)
+    <img> - image must have a source
+
+    6. What do we put in the head of our HTML document? 
+
+    the head is for the title of the page/document and any attributes such as <title>,<meta>,<script> etc.
+
+    7. What is an id?
+
+    ids are like classes is a way but should be used to anchor to a specific place on the page/document
+
+    8. What elements can I add an id to? 
+
+    any.
+
+    9. How many times can I use the same id on a page? 
+
+    1
+
+    10. What is a class? 
+
+    a 'class' is like a 'id' but should only be used for referencing to in a css to change properties.
+    Also you cant link to a class with an anchor(<a href="">)
+
+    11. What elements can I add a class to?
+
+    any
+
+
+    12. How many times can I use the same class on a page? 
+
+    ∞
+
+    13. How do I get my link to open in a new tab?
+
+    'target="_blank"
+
+    14. What is the alt attribute used for? 
+
+    gives a name to the image so if the image cant be displayed the browser can use the alt attribute to replace it.
+
+    15. How do I reference an id?
+
+    #"id value"
+
+    16. What is the difference between a section and a div
+
+    section deffines a section in a documnent where as div gives no meaning to a section
+
+    17. What is CSS used for? 
+
+    to format the webpage color, layout, size etc.
+
+    18. How to we select an element? Example - every h2 on the page
+    h2{
+
+    }
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+
+    id anchors a location on the page, where as class give a grouping to format in css
+
+    20. How do we select classes in CSS?
+
+    .className{
+
+    }
+
+    21. How do we select a p element with a single class of “human””?
+
+    p.human{
+
+    }
+
+    22. What is a parent child selector? When would this be useful?
+
+    parent child selector is selecting the parent (div,section) with the child (a,p,img)
+    if you want to only select maybe the paragraphs of a section or div
+
+    23. How do you select all links within a div with the class of sidebar?
+    div.className link{
+
+    }
+
+    24. What is a pseudo selector?
+
+    a selector that selects elements that are in a specific state
+
+    e.g.
+    img:hover{
+
+    }
+
+    25. What do we use the change the spacing between lines?
+
+    selector{
+        line-height:
+    }
+
+    26. What do we use to change the spacing between letters?
+
+    selector{
+        letter-spacing:
+    }
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+
+    selector{
+        text-transform:uppercase
+        text-transform:lowercase
+        text-transform:capitalize
+    }
+
+    28. How do I add a 1px border around my div that is dotted and black?
+
+    div or .className{
+        border:1px dotted black;
+    }
+
+    29. How do I select everything on the page? 
+    
+    body{
+
+    }
+
+    30. How do I write a comment in CSS?
+
+    /*Hello World*/
+
+    31. How do I find out what file I am in, when I am using the command line? 
+
+    i thing you mean what directory and it is displayed above the line you are typing in.
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+
+    ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+
+    rm "filename.ext"
+
+    34. Why should I use version control? 
+
+    prevent pushing bugs to the master
+
+    35. How often should I commit to github?
+
+    frequently to ensure limiting the amount of lost data in the case of a disaster(computer crash, power outage etc.)
+
+    36. What is the command we would use to push our repo up to github? 
+
+    push --set-upstream origin "branch name"
+
+    37. Walk me through Lambda's git flow. 
+
+    cd to folder you want
+    
+    git clone "url"
+
+    cd to folder created
+
+    git checkout -b "branch name"
+
+    touch or mkdir "name" "name.ext"
+
+    code "Filename.ext"
+
+    edit file in vsCode and save
+
+    git status
+
+    git add .
+
+    git status 
+
+    git commit -m 'Message'
+
+    git status
+
+    git push --set-upstream origin "branch name"
+
+    check github.com to make sure the upload worked
+
+    create a pull req.
+    
+    add TL as reviewer
